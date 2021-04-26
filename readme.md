@@ -13,7 +13,8 @@ The capability of creating custom HTML tags by extending them.
 ```
 class CustomTag extends HTMLElement {
     ...
-}window.customElements.define('custom-tag', CustomTag)
+}
+window.customElements.define('custom-tag', CustomTag)
 
 ```
 ```
@@ -41,7 +42,7 @@ Custom elements have life cycle methods:
 - Use slots to add custom text. 
 
 
-#### See the [/example](https://github.com/jaqarrick/web-components-info/tree/main/examples) folder for a simple demo of how web components can be used.
+#### See the [/example](https://github.com/jaqarrick/web-components-info/tree/main/example) folder for a simple demo of how web components can be used.
 
 # Attributions
 These notes are entirely sourced from Traversy Media's [Web Components Crash Course](https://youtu.be/PCWaFLy3VUo).
